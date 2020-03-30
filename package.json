@@ -1,5 +1,5 @@
 {
-  "name": "elvis-tag-translation",
+  "name": "elvis-plugin-tag-translation",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -11,14 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/netlob/elvis-tag-translation.git"
+    "url": "git+https://github.com/netlob/elvis-plugin-tag-translation.git"
   },
-  "author": "",
+  "author": {
+    "name": "Sjoerd Bolten",
+    "email": "sjoerd@netlob.dev",
+    "url": "https://netlob.dev"
+  },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/netlob/elvis-tag-translation/issues"
+    "url": "https://github.com/netlob/elvis-plugin-tag-translation/issues"
   },
-  "homepage": "https://github.com/netlob/elvis-tag-translation#readme",
+  "homepage": "https://github.com/netlob/elvis-plugin-tag-translation#readme",
   "engineStrict": true,
   "engines": {
     "node": ">= 6.9.0"
