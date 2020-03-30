@@ -1,5 +1,5 @@
 {
-  "name": "elvis-plugin-tag-translation",
+  "name": "elvis-plugin-metadata-translation",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/netlob/elvis-plugin-tag-translation.git"
+    "url": "git+https://github.com/netlob/elvis-plugin-metadata-translation.git"
   },
   "author": {
     "name": "Sjoerd Bolten",
@@ -20,9 +20,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/netlob/elvis-plugin-tag-translation/issues"
+    "url": "https://github.com/netlob/elvis-plugin-metadata-translation/issues"
   },
-  "homepage": "https://github.com/netlob/elvis-plugin-tag-translation#readme",
+  "homepage": "https://github.com/netlob/elvis-plugin-metadata-translation#readme",
   "engineStrict": true,
   "engines": {
     "node": ">= 6.9.0"
