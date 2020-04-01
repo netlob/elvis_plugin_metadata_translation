@@ -29,6 +29,24 @@ An Elvis webhook needs to be configured if you want to detect description update
    description
   ```
 - Save the webhook.
-- The generated secret token needs to be specified in the image recognition configuration later on.
+- The generated secret token needs to be specified in the `src/config.ts` file later on.
 
 Detailed information on setting up and using webhooks can be found on [Help Center](https://helpcenter.woodwing.com/hc/en-us/articles/115001884346).
+
+An example webhook is:
+https://media.discordapp.net/attachments/588451250123833382/694871519293210704/unknown.png
+
+## Configure custom-assetinfo.xml
+Some extra metadata fields have to be added in order for this plugin to work.
+- Add the end of the "assetTypeBaseExt" tag in `/data/elvis/config/custom-assetinfo.xml` you will need to add 1 field for each language provied in `src/config.ts`.
+- Example field for language `ru`:
+  ```
+  <field name="cf_descriptionRu" group="General">
+      <storage storeInMetadata="true"/>
+      <compass index="tokenized" analyzer="pureLowerCase" store="yes" excludeFromAll="false" />
+      <data editable="true" datatype="text" multivalue="true" />
+  </field>
+  ```
+- Make sure to
+  - capitalize the first letter of the 2-letter language code
+  - create a field for each language provided in the config file
