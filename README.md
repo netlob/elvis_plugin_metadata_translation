@@ -34,7 +34,7 @@ An Elvis webhook needs to be configured if you want to detect description update
 Detailed information on setting up and using webhooks can be found on [Help Center](https://helpcenter.woodwing.com/hc/en-us/articles/115001884346).
 
 An example webhook is:
-https://media.discordapp.net/attachments/588451250123833382/694871519293210704/unknown.png
+![Example webhook](https://media.discordapp.net/attachments/588451250123833382/694871519293210704/unknown.png)
 
 ## Configure custom-assetinfo.xml
 Some extra metadata fields have to be added in order for this plugin to work.
